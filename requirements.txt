@@ -1,0 +1,7 @@
+bs4
+httpx
+httpx[http2]
+requests
+questionary
+rich
+pycryptodomex
