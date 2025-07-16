@@ -126,7 +126,7 @@ class InstaHack:
                 try:
                     ds_user_id,username,full_name = data.split('<=>')
                     password_ = self.BuatSandiOtomatis(username,full_name)
-                    print(username,password_)
+                    
                     if aplication == 'thread':
                         if api_ == 'validate':
                             executor.submit(self.THD_validate,ds_user_id,username,password_)
